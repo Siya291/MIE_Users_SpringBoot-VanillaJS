@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 750px;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+    margin-bottom: 24px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 12px;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    color: #1a202c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+thead {
+    background-color: #f7fafc;
+}
+
+th, td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    font-weight: 600;
+    color: #4a5568;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
+tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+td:last-child {
+    white-space: nowrap;
+}
+
+td a,
+td button {
+    font-size: 1.15rem;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+td a:hover {
+    background-color: #ebf8ff;
+    transform: scale(1.1);
+}
+
+td button:hover {
+    background-color: #fff5f5;
+    transform: scale(1.1);
+}
+
+.message {
+    margin-top: 16px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-align: center;
+    display: none;
+}
+
+.message-success,
+.message-error {
+    display: block;
+}
+
+.message-success {
+    background-color: #e6fffa;
+    color: #234e52;
+    border: 1px solid #81e6d9;
+}
+
+.message-error {
+    background-color: #fff5f5;
+    color: #742a2a;
+    border: 1px solid #feb2b2;
+}
+
+.footer-nav {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #edf2f7;
+    color: #2d3748;
+    transition: background-color 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: #e2e8f0;
+}

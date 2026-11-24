@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>View Registered Users</title>
+    <title>Registered Users</title>
+    <link rel="stylesheet" href="viewUsers.css">
 </head>
 <body>
 
+<div class="card">
+    <div class="header">
+        <h2>Registered Users</h2>
+    </div>
+
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody id="usersTableBody">
+        </tbody>
+    </table>
+
+    <p id="message" class="message"></p>
+
+    <div class="footer-nav" style="margin-top: 15px;">
+        <a href="registerUser.html" class="btn btn-secondary">← Register New User</a>
+    </div>
+</div>
+
+<script src="viewUsers.js"></script>
 </body>
 </html>
